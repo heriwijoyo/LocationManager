@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
   s.author                = { "Lucien Dupont" => "lucien_dupont@intuit.com" }
   s.source                = { :git => "https://github.com/intuit/LocationManager.git", :tag => "v4.3.0" }
-  s.source_files          = 'LocationManager/INTULocationManager'
+  s.source_files          = 'LocationManager/INTULocationManager/*.{h,m}'
   s.platform              = :ios
   s.ios.deployment_target = '9.0'
   s.requires_arc          = true
